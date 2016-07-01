@@ -1,0 +1,26 @@
+﻿Построение начато 30.06.2016 18:14:36.
+     1>Проект "C:\distrib\OpenCVfon\fon2\fon2.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\distrib\OpenCV\opencv\modules\imgcodecs\include /IC:\distrib\OpenCVfon\fon /IC:\distrib\OpenCV\opencv\modules\core\include\ /IC:\distrib\OpenCV\opencv\modules\imgproc\include\ /IC:\distrib\OpenCV\opencv\modules\videoio\include /IC:\distrib\OpenCV\opencv\modules\imgproc\include /IC:\distrib\OpenCV\opencv\modules\highgui\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\fon2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\distrib\OpenCV\opencv\modules\imgcodecs\include /IC:\distrib\OpenCVfon\fon /IC:\distrib\OpenCV\opencv\modules\core\include\ /IC:\distrib\OpenCV\opencv\modules\imgproc\include\ /IC:\distrib\OpenCV\opencv\modules\videoio\include /IC:\distrib\OpenCV\opencv\modules\imgproc\include /IC:\distrib\OpenCV\opencv\modules\highgui\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\fon2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt fon2.cpp
+         fon2.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\distrib\OpenCVfon\fon2\Debug\fon2.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\distrib\OpenCV\build\lib\Debug opencv_videoio310d.lib opencv_core310d.lib opencv_highgui310d.lib opencv_imgproc310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\distrib\OpenCVfon\fon2\Debug\fon2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\distrib\OpenCVfon\fon2\Debug\fon2.lib" /MACHINE:X86 Debug\fon2.obj
+         Debug\stdafx.obj
+     1>fon2.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvCreateImage в функции _wmain
+     1>fon2.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvReleaseImage в функции _wmain
+     1>fon2.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvGetSize в функции _wmain
+     1>fon2.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvSub в функции _wmain
+     1>fon2.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvCvtColor в функции _wmain
+     1>fon2.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvCreateCameraCapture в функции _wmain
+     1>fon2.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvQueryFrame в функции _wmain
+     1>fon2.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvNamedWindow в функции _wmain
+     1>fon2.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvShowImage в функции _wmain
+     1>fon2.obj : error LNK2019: ссылка на неразрешенный внешний символ _cvWaitKey в функции _wmain
+     1>C:\distrib\OpenCVfon\fon2\Debug\fon2.exe : fatal error LNK1120: неразрешенных внешних элементов: 10
+     1>Построение проекта "C:\distrib\OpenCVfon\fon2\fon2.vcxproj" завершено (целевые объекты Rebuild) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:01.97
